@@ -34,11 +34,11 @@ const UserSchema = new mongoose.Schema({
 resetPasswordExpires: {
     type: Date,
 },
-round1: {
+greyMatter: {
   type: Boolean,
   default: false
 },
-round2:{
+languageRiot:{
   type: Boolean,
   default: false
 },
